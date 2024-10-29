@@ -1,0 +1,61 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build output
+dist/
+public/css/purged.css
+public/css/purge.css
+
+# Logs
+logs
+*.log
+*.tlog
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled source #
+###################
+*.class
+*.o
+*.out
+*.pyc
+*.pyo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Ignore everything in the public/css directory
+public/css/*
+# Except for purged.css
+!public/css/purged.css
+
+# Ignore test result files
+*.test.js
+
+# Ignore npm cache
+.npm/
+.npmrc
+git
