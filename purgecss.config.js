@@ -5,7 +5,7 @@ const path = require('path');
 async function runPurgeCSS() {
     const purgeCSSResults = await new PurgeCSS().purge({
         content: [
-            path.join(__dirname, 'public', 'index.html'),
+            path.join(__dirname, 'index.html'),
             path.join(__dirname, 'public', 'js', '*.js'),
         ],
         css: [
